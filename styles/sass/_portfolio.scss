@@ -1,0 +1,99 @@
+.portfolio {
+  background-color: #fff;
+  // display: flex;
+  flex-direction: column;
+  h2 {
+    font-size: 6rem;
+    color: #fafafa;
+    padding: 3rem 0;
+  }
+
+  h3 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.portTitle {
+  background-color: #334139;
+  margin-bottom: 5rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.projectOne,
+.projectTwo,
+.projectThree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.projectOne {
+  background-color: #fff;
+}
+
+.projectThree {
+  margin-bottom: 6rem;
+}
+
+.projectInfo,
+.projectImg {
+  height: auto;
+  flex: 1 0 calc((99% / 2));
+  margin: 1rem;
+  // min-width: 400px;
+}
+
+.projectImg {
+  box-shadow: 0 0 0.08rem;
+  // transform: scale(0.9);
+  position: relative;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.lUsed {
+  color: #334139;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.pLink a {
+  width: 100%;
+  height: 100%;
+  color: #fafafa;
+  font-size: 3rem;
+  text-shadow: 0 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: hsla(146, 12%, 23%, 0.7);
+  opacity: 0;
+  transition: all 0.3s;
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}

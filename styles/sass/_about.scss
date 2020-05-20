@@ -1,0 +1,26 @@
+.about {
+  margin: 10rem 0;
+}
+
+.aboutCtn {
+  display: flex;
+}
+
+.aboutImg img {
+  box-shadow: 0 0 0.08rem;
+  margin-right: 5rem;
+}
+
+.aboutInfo {
+  width: 65%;
+  align-self: center;
+
+  h2 {
+    font-size: 4rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .abtPTwo {
+    margin-top: 1rem;
+  }
+}

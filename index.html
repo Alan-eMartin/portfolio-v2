@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ad6182cbac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Alan Martin | Web Developer</title>
+  </head>
+
+  <body>
+    <header id="home">
+      <nav class="topNav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li class="contact"><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger hamburger--minus" type="button">
+          <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+          </span>
+        </button>  
+        <a class="cvDownload" title="Download Resume" href="./assets/resume/alan-martin-resume.pdf"
+          >Resume <i class="fas fa-download" aria-label="Click here to download a copy of Alan MArtins resume"></i
+        ></a>
+      </nav>
+      <nav class="mobNav hidden">
+        <ul>
+          <li ><a href="#home" class="mobItem" >Home</a></li>
+          <li><a href="#about"  class="mobItem">About</a></li>
+          <li><a href="#portfolio"  class="mobItem">Portfolio</a></li>
+          <li><a href="#skills"  class="mobItem">Skills</a></li>
+          <li class="contact"><a href="#contact"  class="mobItem">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="container headerCtn">
+        <div class="headerInfo">
+          <h1>Alan Martin <span>Front-End Developer</span></h1>
+        </div>
+        <div class="downArrow">
+          <a href="#about" title="Scroll to About Section"
+            ><i
+              class="fas fa-chevron-down"
+              aria-label="Click Here To learn More About Alan"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about" id="about">
+        <div class="container aboutCtn">
+          <div class="aboutImg">
+            <img src="./assets/proImg.jpg" alt="" />
+          </div>
+          <div class="aboutInfo">
+            <h2>About Me</h2>
+            <p>
+              As a former Chef having worked at some of Canada’s top
+              restaurants, I bring a unique set of skills to Front-End Web
+              Development. With my attention to detail, eye for design and my ability to work with others, I can turn problems into solutions. After 10 years of working in the culinary industry, I decided to leave my passion for food at home, and to use what once drove me as a Chef, in Web Development. As a recent grad of Juno College’s Web Development Immersive Bootcamp, I have learned what it takes to make a website responsive and accessible using modern frameworks like React JS, while also building strong foundations in JavaScript, HTML5, CSS and SCSS.
+            </p>
+            <p class="abtPTwo">
+              The ability to continuously learn and build upon existing
+              knowledge in Web Development was the reason why I decided to
+              switch careers. My passion for learning is what made my career as a chef as successful as it was, and I’m excited to do the same as a Jr. Front-End Web Developer.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <div class="portTitle">
+          <h2 class="container">Portfolio</h2>
+        </div>
+        <div class="container projects">
+          <div class="projectOne">
+            <div class="projectInfo">
+              <h3>Delicious</h3>
+              <p class="lUsed">
+                HTML | Sass
+              </p>
+              <p>
+                <span>Delicious</span> is a fully responsive three page PSD
+                conversion. Using modern CSS layout tools, like Flex Box, allowed
+                reduced media queries and a layout that is scaled to best fit the
+                user's device.
+              </p>
+            </div>
+            <div class="projectImg">
+              <img
+                src="./assets/projectThree.jpg"
+                alt="Image of portfolio piece by Alan Martin"
+              />
+              <div class="pLink">
+                <a href="https://alan-emartin.github.io/alan-martin-project-two/index.html">Live Version</a>
+              </div>
+            </div>
+          </div>
+          <div class="projectTwo">
+            <div class="projectImg">
+              <img
+                src="./assets/projectTwo.jpg"
+                alt="Image of portfolio piece by Alan Martin"
+              />
+              <div class="pLink">
+                <a href="https://alan-emartin.github.io/05-project/">Live Version</a>
+              </div>
+            </div>
+            <div class="projectInfo">
+              <h3>PrintShoppe</h3>
+              <p class="lUsed">
+                React | HTML | Sass
+              </p>
+              <p>
+                <span>PrintShoppe</span> was my first application built with React JS and Firebase. This app highlights my journey as a photographer and acts as
+                a marketplace for prints from my collection.
+              </p>
+            </div>
+          </div>
+          <div class="projectThree">
+            <div class="projectInfo">
+              <h3>Trivia TV</h3>
+              <p class="lUsed">
+                jQuery | HTML | Sass
+              </p>
+              <p>
+                <span>Trivia TV</span> is a fun and interactive trivia game and my first introduction to paired programming. The user is given a chance to test
+                their knowledge of pop culture with ten randomly generated questions from the Trivia DB API.
+              </p>
+            </div>
+            <div class="projectImg">
+              <img
+                src="./assets/projectOne.jpg"
+                alt="Image of portfolio piece by Alan Martin"
+              />
+              <div class="pLink">
+                <a href="https://alanandmiguelprojectfour.github.io/triviaApp/">Live Version</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="skillsTitle">
+          <h2 class="container">Skills</h2>
+        </div>
+        <div class="container">
+          <div class="skillsLang">
+            <ul>
+              <li class="langs"><i class="devicon-html5-plain" aria-label="HTML"></i><span>HTML</span></li>
+              <li class="langs"><i class="devicon-css3-plain" aria-label="CSS"></i><span>CSS</span></li>
+              <li class="langs"><i class="devicon-sass-original" aria-label="Sass"></i><span>Sass</span></li>
+              <li class="langs"><i class="devicon-javascript-plain" aria-label="JavaScript"></i><span>JavaScript</span></li>
+              <li class="langs"><i class="devicon-react-original" aria-label="React JS"></i><span>React</span></li>
+              <li class="langs"><i class="devicon-jquery-plain" aria-label="jQuery"></i><span>jQuery</span></li>
+              <li class="langs"><i class="devicon-github-plain"></i><span>Github</span></li>
+              <li class="langs"><i class="devicon-git-plain" aria-label="Git"></i><span>GIT</span></li>
+              <li class="langs"><i class="devicon-visualstudio-plain" aria-label="VS Code"></i><span>VS Code</span></li>
+              <li class="langs"><i class="devicon-photoshop-plain" aria-label="Photo Shop"></i><span>PhotoShop</span></li>
+              <li class="langs firebase">
+                <img
+                  src="./assets/iconfinder_firebase_4691533.png"
+                  alt="Firebase" aria-label="Firebase"
+                />
+                <span class="firebaseText">Firebase</span>
+              </li>
+              <li class="langs"><i class="devicon-slack-plain" aria-label="Slack"></i><span>Slack</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="contact" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/mqkyajkj" method="POST">
+          <label aria-label="Enter your name here." for="name"></label>
+          <input name="name" type="text" placeholder="Name" />
+          <label aria-label="Enter your email here." for="email"></label>
+          <input type="email" name="email" placeholder="Email" />
+          <label aria-label="Leave a message here." for="message"></label>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <button class="submit" type="submit">Send</button>
+          <p>
+            Or by email at: <a href="mailto:alan.edward.martin@gmail.com">alan.edward.martin@gmail.com</span>
+          </p>
+          <ul class="socials">
+            <li>
+              <a href="https://www.linkedin.com/in/alan-martin-2426b461/"><i class="fab fa-linkedin-in" aria-hidden="true"
+                  aria-label="Check out my LinkedIn"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/alanMartinCodes">
+                <i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/Alan-eMartin/">
+                <i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </form>
+      </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Thanks for Visiting! Developed, Photographed and Designed by Alan Martin
+        </p>
+      </div>
+    </footer>
+
+    <!-- Jquery -->
+    <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+    <!-- Scripts -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.skillsTitle {
+  background-color: rgb(51, 65, 57);
+
+  h2 {
+    font-size: 6rem;
+    color: #fafafa;
+    padding: 3rem 0;
+  }
+}
+
+.skillsLang {
+  margin: 3rem;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    // margin: 6rem 0;
+  }
+}
+
+.langs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12rem;
+  flex: 1 0 20%;
+  color: #334139;
+  margin: 1rem;
+
+  span {
+    margin-top: 0.2rem;
+    font-size: 1.6rem;
+  }
+}
