@@ -737,7 +737,7 @@ button.hamburger:hover, button.hamburger:focus {
 
 .portfolio h3 {
   font-size: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .portTitle {
@@ -810,7 +810,6 @@ button.hamburger:hover, button.hamburger:focus {
       -ms-flex-align: center;
           align-items: center;
   padding: 2rem;
-  text-align: center;
 }
 
 .projectInfo span {
@@ -820,7 +819,7 @@ button.hamburger:hover, button.hamburger:focus {
 .lUsed {
   color: #334139;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .pLink a {
@@ -1173,10 +1172,6 @@ textarea:focus {
     font-size: 1rem;
     margin: 0;
   }
-  .langs.firebase img {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
-  }
 }
 
 @media (max-width: 434px) {
@@ -1216,14 +1211,7 @@ textarea:focus {
     font-size: 1rem;
     margin: 0;
   }
-  .langs.firebase img {
-    margin: 0;
-  }
   .copyright p {
     font-size: 0.8rem;
-  }
-  img.firebase {
-    position: absolute;
-    top: 10rem;
   }
 }

@@ -111,10 +111,6 @@
       font-size: 1rem;
       margin: 0;
     }
-
-    &.firebase img {
-      transform: scale(0.7);
-    }
   }
 }
 
@@ -166,18 +162,9 @@
       font-size: 1rem;
       margin: 0;
     }
-
-    &.firebase img {
-      margin: 0;
-    }
   }
 
   .copyright p {
     font-size: 0.8rem;
-  }
-
-  img.firebase {
-    position: absolute;
-    top: 10rem;
   }
 }
